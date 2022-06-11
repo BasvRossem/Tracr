@@ -4,7 +4,7 @@ import { LogResource } from "./service/LogResource";
 
 const PORT = 8080;
 
-console.log(process.env)
+console.log(`Connecting to databse ${process.env.MONGO_CLUSTER}`)
 console.log("Staring service at port " + PORT);
 
 LogService.Service
